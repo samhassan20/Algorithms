@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3sp"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/textview_nl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="@string/Heap_Sort"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/button_nl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_nl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="Play Tutorial" />
+
+    <VideoView
+        android:id="@+id/videoView_nl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_nl"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>

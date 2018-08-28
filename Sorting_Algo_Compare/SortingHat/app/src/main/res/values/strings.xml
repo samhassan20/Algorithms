@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sorting Hat</string>
+    <string name="Insertion_Sort">Insertion sort is your best pick for small data-set. It might have
+        O(n) time complexity but it is easier to understand and implement. </string>
+    <string name="Merge_Sort">Merge sort is a stable sort and gives O(nlogn) worse case time
+        complexity. This makes it ideal for medium size data.</string>
+    <string name="Quick_Sort">Quick sort gives O(nlogn) average case time
+        complexity. Its in place sorting nature make it suitable for large data-set</string>
+    <string name="Counting_Sort">Linear time sorting nature of counting sort make it first choice
+        for small numbers with O(n+k) time complexity.</string>
+    <string name="Heap_Sort">Heap sort is ideal for the large data as it gives O(1) space complexity
+        in addition to O(nlogn) time complexity.</string>
+
+    <string-array name="data_type">
+        <item>---Select---</item>
+        <item>Number</item>
+        <item>String</item>
+    </string-array>
+    <string-array name="data_size">
+        <item>---Select---</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>
